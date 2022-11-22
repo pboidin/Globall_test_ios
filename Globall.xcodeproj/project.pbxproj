@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0067CA3A7394048B4DDE3980 /* FBAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA253A8DB2D88BC61594266C /* FBAuthentication.swift */; };
+		01DFCFE3F7C880EA1B0CD922 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BBDA5C17BF1580BF1ED56A /* Validation.swift */; };
+		043D70138723947834D11EC0 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483B78359CA213F38E7CB95 /* CardCell.swift */; };
+		050984DF261C40F34E81C6FE /* FootballPlaygroundThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED77F5999C325A65505910 /* FootballPlaygroundThreeViewModel.swift */; };
+		059B124720E6D1DAFBBBEEDE /* MapsBasketballOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E05E5706AB5ABDF943F10B /* MapsBasketballOneViewModel.swift */; };
+		06C0E46307FCB8F7A36004CC /* SignUpTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F923E575A3DF10E9F232D1D /* SignUpTwoViewModel.swift */; };
+		0D3457941BC3D0D1ADB10F4D /* PoppinsLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32A4E018C32C25880D5D7890 /* PoppinsLight.ttf */; };
+		141B165598303EE2C991C66E /* PoppinsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD02185375359660C599007E /* PoppinsRegular.ttf */; };
+		1D9E849CB307F3ED5C223A7F /* BasketballPlaygroundTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E68B313D46DDFE4A10A374 /* BasketballPlaygroundTwoViewModel.swift */; };
+		2522B1A59FF6969920A71F64 /* MapsBasketballThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5157C26178B2ABD644F69 /* MapsBasketballThreeViewModel.swift */; };
+		259AB68A5C046063035A0AB3 /* FootballPlaygroundTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A986F1044BD498B32301D /* FootballPlaygroundTwoViewModel.swift */; };
+		27DC5CF08472E25AAC520606 /* MapsFootballTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D6FABA71E08E96E742E72 /* MapsFootballTwoView.swift */; };
+		41847CBEBB977ED4A800AFA4 /* InterSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F52602DB819B909FFC361224 /* InterSemiBold.ttf */; };
+		41D4603F44DF78F5B353665C /* MapsBasketballThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9F65FD8B80205F8C5DF5B /* MapsBasketballThreeView.swift */; };
+		461157FDD15B972C9F4A8414 /* MapsBasketballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674CE2FD2C5315CF568FB97 /* MapsBasketballView.swift */; };
+		4BB9FB8CFDCF5520D916AB57 /* LatoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9B187107BE69B7B89CF2ED5 /* LatoBold.ttf */; };
+		56F72BE1F8ED6727305F3F09 /* MapsFootballThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CEC40C851720541F28BAC /* MapsFootballThreeViewModel.swift */; };
+		58A4FB05BCB41A95201BB76E /* RobotoRomanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 407EE48D9C997BDC5B501E23 /* RobotoRomanRegular.ttf */; };
+		5BB3C3D258F61F8393790270 /* SignUpOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0600B18B69645BDED3C27E90 /* SignUpOneView.swift */; };
+		5DEEE649F90DD5448851E05F /* BasketballPlaygroundOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE73FD9E823DAAA6B4AC2 /* BasketballPlaygroundOneView.swift */; };
+		627D2DF71EAB4324A8D6D7F3 /* BasketballPlaygroundOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDEC25B3D6C31A6833411 /* BasketballPlaygroundOneViewModel.swift */; };
+		62AB55DA135FEE2BD89D7B40 /* StringScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD2E905751A8835E7600755 /* StringScheme.swift */; };
+		66AABA5D5121FA98D56F4EAD /* MapsBasketballViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7C23B0B81A36C3035DF6B /* MapsBasketballViewModel.swift */; };
+		6D9E45690BF6FC4A18EEEC13 /* MontserratRomanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC5C34131F42E56CFDBD22BC /* MontserratRomanRegular.ttf */; };
+		6F49C426F34095DD481C8E93 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1EBAD4D1F050EE710412EB /* HomePageViewModel.swift */; };
+		73707A544902B8EABB0F6A9D /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E04D9E1262593463E0B54 /* HomePageView.swift */; };
+		73F22C331A84080B629CA37B /* AntonioBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042E7A099C8C138D206BE455 /* AntonioBold.ttf */; };
+		76EB2A9173B3ECC71754E36B /* MapsFootballOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E278918AA2BB5062FB112 /* MapsFootballOneView.swift */; };
+		77640A8D994D38C77238A7C6 /* MapsFootballThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864BB41A4FA586282069C65 /* MapsFootballThreeView.swift */; };
+		78B2AE02A9B2995BAEA4258F /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63686F59867DC20EB5C3D997 /* PoppinsBold.ttf */; };
+		7BD43DE7B2F9BA2E35237BBE /* ConnexionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0903E2011D82555F648B363B /* ConnexionViewModel.swift */; };
+		7DF726180D8034B8EC63F92B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A92C99C169063E066856A /* ProfileViewModel.swift */; };
+		7F44DBA127422A5D00171570 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44DBA027422A5D00171570 /* ActivityLoader.swift */; };
+		830F905B322E172D95BCAD7A /* MontserratSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF461A3EA464B3BFB1D9C99 /* MontserratSemiBold.ttf */; };
+		8617F3985E9795F8D3863F70 /* FootballPlaygroundOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B6DACF12104421BE732D28 /* FootballPlaygroundOneView.swift */; };
+		884F3E5127B0E65A00963FC4 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */; };
+		8853052627718DC500B04E6F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853052527718DC500B04E6F /* ViewExtension.swift */; };
+		8853052A27718E2D00B04E6F /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853052927718E2D00B04E6F /* EncodableExtension.swift */; };
+		8853052C2771949600B04E6F /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853052B2771949600B04E6F /* UINavigationController.swift */; };
+		88680D1C2775C601002E964F /* ViewportHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88680D1B2775C601002E964F /* ViewportHelper.swift */; };
+		888CB47527686A000041116C /* APIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CB47427686A000041116C /* APIExtensions.swift */; };
+		88ED74EC272FFE6F0088E3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EB272FFE6F0088E3EF /* Assets.xcassets */; };
+		88ED74EF272FFE6F0088E3EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */; };
+		88ED7500272FFECA0088E3EF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74F7272FFECA0088E3EF /* Utilities.swift */; };
+		88ED7501272FFECA0088E3EF /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74F9272FFECA0088E3EF /* AppConstants.swift */; };
+		88ED7503272FFECA0088E3EF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FD272FFECA0088E3EF /* APIManager.swift */; };
+		88ED7504272FFECA0088E3EF /* GloballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FF272FFECA0088E3EF /* GloballApp.swift */; };
+		92EB12FC02C3BCB9AB8CE734 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A83E963809C9CE779EB8F /* ColorConstants.swift */; };
+		9BAABAAA57EA2FBB0E57109D /* BasketballPlaygroundTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20DDAC7D028AC8B40734E16 /* BasketballPlaygroundTwoView.swift */; };
+		9D380E1133B69B19DC64A7B4 /* PoppinsMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667FC1479B5D82989B246B0D /* PoppinsMedium.ttf */; };
+		9E166A2D27CC27A2FE675DB7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1061D1C5CC6E0F184DFD7 /* ProfileView.swift */; };
+		A04969997994BCB184BDF6A4 /* LandingPageOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124254BE1E4E99C732C7962E /* LandingPageOneView.swift */; };
+		A2CA29209036B3ADCABADC8F /* ConnexionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8EA1387242063F52000C8 /* ConnexionView.swift */; };
+		A326A6174A4EBC9E95358CFF /* SignUpOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFEC05DBB4839702A5366B /* SignUpOneViewModel.swift */; };
+		A4269D360A1B6A776CBE8D0B /* SignUpTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB8A9D898132C16886A661 /* SignUpTwoView.swift */; };
+		A5C7C13C4954B23E348AF809 /* BasketballPlaygroundThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8807A2588F712CB895D38EB /* BasketballPlaygroundThreeViewModel.swift */; };
+		A5C94D1692E32DEF7F922379 /* MapsBasketballTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9366C5C294CD466477ED5 /* MapsBasketballTwoViewModel.swift */; };
+		A5D9EBBEC8E6903A2274C290 /* BasketballPlaygroundThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63929B380C2F55454A7B09 /* BasketballPlaygroundThreeView.swift */; };
+		A8375CB5CFC78249C8EF4A14 /* MapsFootballViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08CB60B5FE74BA24F7082D /* MapsFootballViewModel.swift */; };
+		B734B365BEF5DCB3F6E18C09 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B01BF65DE4B6C2522BBBA05 /* EventsView.swift */; };
+		C053B9BB08CC955A784CAC39 /* MapsFootballTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAA1E546F94A3A1D8D7B75B /* MapsFootballTwoViewModel.swift */; };
+		C40AB9F82754D79E006BC5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */; };
+		CB52EB4243B56BF85C855A16 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA45EC782E3453A82BCF19 /* EventsViewModel.swift */; };
+		CEE17073401CB7FBCF68BA8A /* AppnavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C90EAF5EC2B72A08AEE2F73 /* AppnavigationView.swift */; };
+		D1B6AAB1E196AD3403A9EFED /* EventCreatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4085BC19F26EDC58ADCB0 /* EventCreatedView.swift */; };
+		D3B69AEF8274A7C9B5D8042B /* GoogleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68425BC65FD96F36EBF86B63 /* GoogleAuthentication.swift */; };
+		D3BCD515A2FC7526221AF42A /* AppnavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD454EB4A99DE1136BE3F79E /* AppnavigationViewModel.swift */; };
+		D5B8A56F452DC49DB950A7C8 /* MontserratRomanMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DE96DF8A8446B35E61D2711 /* MontserratRomanMedium.ttf */; };
+		D7DC50D19C13FD54E25C3DD3 /* LandingPageTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B120CCA3347BAEC42A361A /* LandingPageTwoView.swift */; };
+		D83A4DABCF35B452CD77428B /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E3DDC3C70768E2A1700977 /* PoppinsSemiBold.ttf */; };
+		D9DF274BE188FFF54E9B9F3E /* FootballPlaygroundThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A964510F39BE15ACE5E019 /* FootballPlaygroundThreeView.swift */; };
+		DB3810BF8F1EC022E38073A1 /* MapsBasketballTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26841E49843B8096FDB9EF4A /* MapsBasketballTwoView.swift */; };
+		DE31F6A0603217F6BE3180C7 /* ManageyoureventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E939D09D599BC4258CB92 /* ManageyoureventView.swift */; };
+		DEE533DC2732A710D5F72007 /* MapsFootballOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4F27F1389FCA194493CFA /* MapsFootballOneViewModel.swift */; };
+		E08E49D6BB332D69E2539457 /* MontagaRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9F907A88F5C046B229A0A0F /* MontagaRegular.ttf */; };
+		E0DCDA043CC23C5C7C61FEE8 /* FootballPlaygroundOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F40A5B9E657B4B890F22E /* FootballPlaygroundOneViewModel.swift */; };
+		E258D78196043B3C01238E7C /* InterBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05888ADEA66953BE6A0D110B /* InterBold.ttf */; };
+		E6578303E22754A23D07EA21 /* MapsFootballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC16C68AF86FAAB32FF2CA1 /* MapsFootballView.swift */; };
+		E7F792DB6EDC777F1BA60804 /* MapsBasketballOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9439CC1DBFB3D30800456AFB /* MapsBasketballOneView.swift */; };
+		E8BCA25293F0A3377A079A33 /* RobotoRomanMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEC9ECF2F9774448DC6D116F /* RobotoRomanMedium.ttf */; };
+		F118D9D7BE5F97C8670005D7 /* FontScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DF442CC4AE6521B10743E /* FontScheme.swift */; };
+		F1C31BCB2E56E16D6BF176BE /* EventCreatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC61BAD2451F227AEAD9717 /* EventCreatedViewModel.swift */; };
+		F36B0CBF9DA0B3BAE18B644F /* LandingPageOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD44A23403114F929A70A /* LandingPageOneViewModel.swift */; };
+		F7AAA6DE1E2E062996062DF3 /* LandingPageTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35866DEB2F4F41AC9DFA8834 /* LandingPageTwoViewModel.swift */; };
+		F8089ED6E41A0279F1B8651A /* ManageyoureventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B03DD20D5280913543866 /* ManageyoureventViewModel.swift */; };
+		F9A4C6E3F1EF6419AD17B3EB /* InterRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE37017C713EBDF2D3B6F15F /* InterRegular.ttf */; };
+		F9F46B8289536B7D541C051C /* FootballPlaygroundTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6140222B94EDBBF9ED67C5B3 /* FootballPlaygroundTwoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042E7A099C8C138D206BE455 /* AntonioBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = AntonioBold.ttf; sourceTree = "<group>"; };
+		05888ADEA66953BE6A0D110B /* InterBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = InterBold.ttf; sourceTree = "<group>"; };
+		0600B18B69645BDED3C27E90 /* SignUpOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpOneView.swift; sourceTree = "<group>"; };
+		06C4F27F1389FCA194493CFA /* MapsFootballOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballOneViewModel.swift; sourceTree = "<group>"; };
+		077D6FABA71E08E96E742E72 /* MapsFootballTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballTwoView.swift; sourceTree = "<group>"; };
+		0903E2011D82555F648B363B /* ConnexionViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnexionViewModel.swift; sourceTree = "<group>"; };
+		0EC16C68AF86FAAB32FF2CA1 /* MapsFootballView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballView.swift; sourceTree = "<group>"; };
+		0FB8EA1387242063F52000C8 /* ConnexionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnexionView.swift; sourceTree = "<group>"; };
+		124254BE1E4E99C732C7962E /* LandingPageOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LandingPageOneView.swift; sourceTree = "<group>"; };
+		158CEC40C851720541F28BAC /* MapsFootballThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballThreeViewModel.swift; sourceTree = "<group>"; };
+		1674CE2FD2C5315CF568FB97 /* MapsBasketballView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballView.swift; sourceTree = "<group>"; };
+		183F40A5B9E657B4B890F22E /* FootballPlaygroundOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FootballPlaygroundOneViewModel.swift; sourceTree = "<group>"; };
+		21F9366C5C294CD466477ED5 /* MapsBasketballTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballTwoViewModel.swift; sourceTree = "<group>"; };
+		23ABDEC25B3D6C31A6833411 /* BasketballPlaygroundOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasketballPlaygroundOneViewModel.swift; sourceTree = "<group>"; };
+		25E05E5706AB5ABDF943F10B /* MapsBasketballOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballOneViewModel.swift; sourceTree = "<group>"; };
+		26841E49843B8096FDB9EF4A /* MapsBasketballTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballTwoView.swift; sourceTree = "<group>"; };
+		28A5157C26178B2ABD644F69 /* MapsBasketballThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballThreeViewModel.swift; sourceTree = "<group>"; };
+		2FD4085BC19F26EDC58ADCB0 /* EventCreatedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventCreatedView.swift; sourceTree = "<group>"; };
+		32A4E018C32C25880D5D7890 /* PoppinsLight.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = PoppinsLight.ttf; sourceTree = "<group>"; };
+		35866DEB2F4F41AC9DFA8834 /* LandingPageTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LandingPageTwoViewModel.swift; sourceTree = "<group>"; };
+		3B01BF65DE4B6C2522BBBA05 /* EventsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		3E0A92C99C169063E066856A /* ProfileViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		407EE48D9C997BDC5B501E23 /* RobotoRomanRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = RobotoRomanRegular.ttf; sourceTree = "<group>"; };
+		4F923E575A3DF10E9F232D1D /* SignUpTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpTwoViewModel.swift; sourceTree = "<group>"; };
+		56B6DACF12104421BE732D28 /* FootballPlaygroundOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FootballPlaygroundOneView.swift; sourceTree = "<group>"; };
+		5AAA1E546F94A3A1D8D7B75B /* MapsFootballTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballTwoViewModel.swift; sourceTree = "<group>"; };
+		5EAFEC05DBB4839702A5366B /* SignUpOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpOneViewModel.swift; sourceTree = "<group>"; };
+		6140222B94EDBBF9ED67C5B3 /* FootballPlaygroundTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FootballPlaygroundTwoView.swift; sourceTree = "<group>"; };
+		63686F59867DC20EB5C3D997 /* PoppinsBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = PoppinsBold.ttf; sourceTree = "<group>"; };
+		667FC1479B5D82989B246B0D /* PoppinsMedium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = PoppinsMedium.ttf; sourceTree = "<group>"; };
+		68425BC65FD96F36EBF86B63 /* GoogleAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleAuthentication.swift; sourceTree = "<group>"; };
+		69BBDA5C17BF1580BF1ED56A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		6C90EAF5EC2B72A08AEE2F73 /* AppnavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppnavigationView.swift; sourceTree = "<group>"; };
+		6D2A83E963809C9CE779EB8F /* ColorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		738B03DD20D5280913543866 /* ManageyoureventViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManageyoureventViewModel.swift; sourceTree = "<group>"; };
+		7483B78359CA213F38E7CB95 /* CardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		757A986F1044BD498B32301D /* FootballPlaygroundTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FootballPlaygroundTwoViewModel.swift; sourceTree = "<group>"; };
+		79A9F65FD8B80205F8C5DF5B /* MapsBasketballThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballThreeView.swift; sourceTree = "<group>"; };
+		7BF1061D1C5CC6E0F184DFD7 /* ProfileView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7DE96DF8A8446B35E61D2711 /* MontserratRomanMedium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = MontserratRomanMedium.ttf; sourceTree = "<group>"; };
+		7F44DBA027422A5D00171570 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
+		884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		8853052527718DC500B04E6F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		8853052927718E2D00B04E6F /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		8853052B2771949600B04E6F /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		88680D1B2775C601002E964F /* ViewportHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewportHelper.swift; sourceTree = "<group>"; };
+		888CB47427686A000041116C /* APIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIExtensions.swift; sourceTree = "<group>"; };
+		88ED74E4272FFE6E0088E3EF /* Globall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Globall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ED74EB272FFE6F0088E3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88ED74F0272FFE6F0088E3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ED74F7272FFECA0088E3EF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		88ED74F9272FFECA0088E3EF /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		88ED74FD272FFECA0088E3EF /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		88ED74FF272FFECA0088E3EF /* GloballApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GloballApp.swift; sourceTree = "<group>"; };
+		8D08CB60B5FE74BA24F7082D /* MapsFootballViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballViewModel.swift; sourceTree = "<group>"; };
+		8D1EBAD4D1F050EE710412EB /* HomePageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		9439CC1DBFB3D30800456AFB /* MapsBasketballOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballOneView.swift; sourceTree = "<group>"; };
+		96E3DDC3C70768E2A1700977 /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = PoppinsSemiBold.ttf; sourceTree = "<group>"; };
+		9EF461A3EA464B3BFB1D9C99 /* MontserratSemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = MontserratSemiBold.ttf; sourceTree = "<group>"; };
+		9F2E04D9E1262593463E0B54 /* HomePageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		A2A7C23B0B81A36C3035DF6B /* MapsBasketballViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsBasketballViewModel.swift; sourceTree = "<group>"; };
+		A3EA45EC782E3453A82BCF19 /* EventsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		A8807A2588F712CB895D38EB /* BasketballPlaygroundThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasketballPlaygroundThreeViewModel.swift; sourceTree = "<group>"; };
+		A9B187107BE69B7B89CF2ED5 /* LatoBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = LatoBold.ttf; sourceTree = "<group>"; };
+		A9F907A88F5C046B229A0A0F /* MontagaRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = MontagaRegular.ttf; sourceTree = "<group>"; };
+		AA253A8DB2D88BC61594266C /* FBAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FBAuthentication.swift; sourceTree = "<group>"; };
+		AC9DF442CC4AE6521B10743E /* FontScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
+		AD02185375359660C599007E /* PoppinsRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = PoppinsRegular.ttf; sourceTree = "<group>"; };
+		AD454EB4A99DE1136BE3F79E /* AppnavigationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppnavigationViewModel.swift; sourceTree = "<group>"; };
+		AEC9ECF2F9774448DC6D116F /* RobotoRomanMedium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = RobotoRomanMedium.ttf; sourceTree = "<group>"; };
+		B0E68B313D46DDFE4A10A374 /* BasketballPlaygroundTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasketballPlaygroundTwoViewModel.swift; sourceTree = "<group>"; };
+		B23AE73FD9E823DAAA6B4AC2 /* BasketballPlaygroundOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasketballPlaygroundOneView.swift; sourceTree = "<group>"; };
+		B75E939D09D599BC4258CB92 /* ManageyoureventView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManageyoureventView.swift; sourceTree = "<group>"; };
+		BC4BD44A23403114F929A70A /* LandingPageOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LandingPageOneViewModel.swift; sourceTree = "<group>"; };
+		BE37017C713EBDF2D3B6F15F /* InterRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = InterRegular.ttf; sourceTree = "<group>"; };
+		BE63929B380C2F55454A7B09 /* BasketballPlaygroundThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasketballPlaygroundThreeView.swift; sourceTree = "<group>"; };
+		C1BB8A9D898132C16886A661 /* SignUpTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpTwoView.swift; sourceTree = "<group>"; };
+		C20DDAC7D028AC8B40734E16 /* BasketballPlaygroundTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasketballPlaygroundTwoView.swift; sourceTree = "<group>"; };
+		C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D864BB41A4FA586282069C65 /* MapsFootballThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballThreeView.swift; sourceTree = "<group>"; };
+		DDD2E905751A8835E7600755 /* StringScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
+		E4A964510F39BE15ACE5E019 /* FootballPlaygroundThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FootballPlaygroundThreeView.swift; sourceTree = "<group>"; };
+		E59E278918AA2BB5062FB112 /* MapsFootballOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapsFootballOneView.swift; sourceTree = "<group>"; };
+		EEED77F5999C325A65505910 /* FootballPlaygroundThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FootballPlaygroundThreeViewModel.swift; sourceTree = "<group>"; };
+		F52602DB819B909FFC361224 /* InterSemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = InterSemiBold.ttf; sourceTree = "<group>"; };
+		F5B120CCA3347BAEC42A361A /* LandingPageTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LandingPageTwoView.swift; sourceTree = "<group>"; };
+		FBC61BAD2451F227AEAD9717 /* EventCreatedViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventCreatedViewModel.swift; sourceTree = "<group>"; };
+		FC5C34131F42E56CFDBD22BC /* MontserratRomanRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = MontserratRomanRegular.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88ED74E1272FFE6E0088E3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429E0E6F6FE354628A0409A /* MapsFootballView */ = {
+			isa = PBXGroup;
+			children = (
+				0EC16C68AF86FAAB32FF2CA1 /* MapsFootballView.swift */,
+				8D08CB60B5FE74BA24F7082D /* MapsFootballViewModel.swift */,
+			);
+			name = MapsFootballView;
+			path = MapsFootballView;
+			sourceTree = "<group>";
+		};
+		13EE25910A09E7F18FE71532 /* MapsBasketballTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				26841E49843B8096FDB9EF4A /* MapsBasketballTwoView.swift */,
+				21F9366C5C294CD466477ED5 /* MapsBasketballTwoViewModel.swift */,
+			);
+			name = MapsBasketballTwoView;
+			path = MapsBasketballTwoView;
+			sourceTree = "<group>";
+		};
+		18E9D8A576D27F8740436321 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B957B2D4A71850FBA40E0121 /* LandingPageOneView */,
+				2EEDF098893B646A5F5F488B /* ManageyoureventView */,
+				A668E00F3CE625D4C36F9700 /* ProfileView */,
+				FA4D4558BC82310951C51B8F /* EventCreatedView */,
+				9D8053E9A02FE168E03D34BE /* LandingPageTwoView */,
+				8A68FFD5DA94247A51D4DED2 /* ConnexionView */,
+				CEDC1B73AD2778D5D5AD869A /* HomePageView */,
+				93784D28531B5F01FC2CD8B8 /* EventsView */,
+				2632F70138D3C342F1A1F00C /* SignUpOneView */,
+				D0FB99CFFAC47A3D9849BA58 /* SignUpTwoView */,
+				E9495D6C531D7FC74F80A3C1 /* MapsBasketballView */,
+				0429E0E6F6FE354628A0409A /* MapsFootballView */,
+				F71A241359AB3A472E7BC906 /* MapsBasketballThreeView */,
+				13EE25910A09E7F18FE71532 /* MapsBasketballTwoView */,
+				C52630ACB5EA6FF8A7A19EA6 /* MapsBasketballOneView */,
+				7A00072A5684F5DCE11D28F5 /* MapsFootballOneView */,
+				A9D264A8B6E55286B4E1EEC3 /* MapsFootballTwoView */,
+				BF6DE2D263AE1690F5AE72A5 /* MapsFootballThreeView */,
+				48C66FCC3BA7242960BBAAC2 /* BasketballPlaygroundThreeView */,
+				F1C20F98A0882E27AE5BB79A /* BasketballPlaygroundTwoView */,
+				507A23A61615A014C2E1D9DC /* BasketballPlaygroundOneView */,
+				967C392FEF57D4866140E970 /* FootballPlaygroundOneView */,
+				32BC9C647B133B344D55A388 /* FootballPlaygroundTwoView */,
+				CDEB151D1D3F70B44DC4210D /* FootballPlaygroundThreeView */,
+				461093BF12DCA833BCC59506 /* AppnavigationView */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2632F70138D3C342F1A1F00C /* SignUpOneView */ = {
+			isa = PBXGroup;
+			children = (
+				0600B18B69645BDED3C27E90 /* SignUpOneView.swift */,
+				5EAFEC05DBB4839702A5366B /* SignUpOneViewModel.swift */,
+			);
+			name = SignUpOneView;
+			path = SignUpOneView;
+			sourceTree = "<group>";
+		};
+		2EEDF098893B646A5F5F488B /* ManageyoureventView */ = {
+			isa = PBXGroup;
+			children = (
+				B75E939D09D599BC4258CB92 /* ManageyoureventView.swift */,
+				738B03DD20D5280913543866 /* ManageyoureventViewModel.swift */,
+			);
+			name = ManageyoureventView;
+			path = ManageyoureventView;
+			sourceTree = "<group>";
+		};
+		32BC9C647B133B344D55A388 /* FootballPlaygroundTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				6140222B94EDBBF9ED67C5B3 /* FootballPlaygroundTwoView.swift */,
+				757A986F1044BD498B32301D /* FootballPlaygroundTwoViewModel.swift */,
+			);
+			name = FootballPlaygroundTwoView;
+			path = FootballPlaygroundTwoView;
+			sourceTree = "<group>";
+		};
+		3DC35DF50643FFB832148727 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63686F59867DC20EB5C3D997 /* PoppinsBold.ttf */,
+				A9F907A88F5C046B229A0A0F /* MontagaRegular.ttf */,
+				A9B187107BE69B7B89CF2ED5 /* LatoBold.ttf */,
+				9EF461A3EA464B3BFB1D9C99 /* MontserratSemiBold.ttf */,
+				AEC9ECF2F9774448DC6D116F /* RobotoRomanMedium.ttf */,
+				AD02185375359660C599007E /* PoppinsRegular.ttf */,
+				BE37017C713EBDF2D3B6F15F /* InterRegular.ttf */,
+				05888ADEA66953BE6A0D110B /* InterBold.ttf */,
+				7DE96DF8A8446B35E61D2711 /* MontserratRomanMedium.ttf */,
+				042E7A099C8C138D206BE455 /* AntonioBold.ttf */,
+				FC5C34131F42E56CFDBD22BC /* MontserratRomanRegular.ttf */,
+				96E3DDC3C70768E2A1700977 /* PoppinsSemiBold.ttf */,
+				667FC1479B5D82989B246B0D /* PoppinsMedium.ttf */,
+				407EE48D9C997BDC5B501E23 /* RobotoRomanRegular.ttf */,
+				F52602DB819B909FFC361224 /* InterSemiBold.ttf */,
+				32A4E018C32C25880D5D7890 /* PoppinsLight.ttf */,
+			);
+			name = Fonts;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		461093BF12DCA833BCC59506 /* AppnavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				6C90EAF5EC2B72A08AEE2F73 /* AppnavigationView.swift */,
+				AD454EB4A99DE1136BE3F79E /* AppnavigationViewModel.swift */,
+			);
+			name = AppnavigationView;
+			path = AppnavigationView;
+			sourceTree = "<group>";
+		};
+		48C66FCC3BA7242960BBAAC2 /* BasketballPlaygroundThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				BE63929B380C2F55454A7B09 /* BasketballPlaygroundThreeView.swift */,
+				A8807A2588F712CB895D38EB /* BasketballPlaygroundThreeViewModel.swift */,
+			);
+			name = BasketballPlaygroundThreeView;
+			path = BasketballPlaygroundThreeView;
+			sourceTree = "<group>";
+		};
+		507A23A61615A014C2E1D9DC /* BasketballPlaygroundOneView */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE73FD9E823DAAA6B4AC2 /* BasketballPlaygroundOneView.swift */,
+				23ABDEC25B3D6C31A6833411 /* BasketballPlaygroundOneViewModel.swift */,
+			);
+			name = BasketballPlaygroundOneView;
+			path = BasketballPlaygroundOneView;
+			sourceTree = "<group>";
+		};
+		7A00072A5684F5DCE11D28F5 /* MapsFootballOneView */ = {
+			isa = PBXGroup;
+			children = (
+				E59E278918AA2BB5062FB112 /* MapsFootballOneView.swift */,
+				06C4F27F1389FCA194493CFA /* MapsFootballOneViewModel.swift */,
+			);
+			name = MapsFootballOneView;
+			path = MapsFootballOneView;
+			sourceTree = "<group>";
+		};
+		7F44DB9E27422A4200171570 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				88680D1A2775C5BD002E964F /* Viewport */,
+				7F44DB9F27422A4200171570 /* ActivityLoader */,
+				B3F312C86918146D55D5440D /* FacebookAuthentication */,
+				DFB6D190F510F9E63AF93DAE /* GoogleAuthentication */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7F44DB9F27422A4200171570 /* ActivityLoader */ = {
+			isa = PBXGroup;
+			children = (
+				7F44DBA027422A5D00171570 /* ActivityLoader.swift */,
+			);
+			path = ActivityLoader;
+			sourceTree = "<group>";
+		};
+		88680D1A2775C5BD002E964F /* Viewport */ = {
+			isa = PBXGroup;
+			children = (
+				88680D1B2775C601002E964F /* ViewportHelper.swift */,
+			);
+			path = Viewport;
+			sourceTree = "<group>";
+		};
+		88ED74DB272FFE6E0088E3EF = {
+			isa = PBXGroup;
+			children = (
+				88ED74E6272FFE6E0088E3EF /* Globall */,
+				88ED74E5272FFE6E0088E3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88ED74E5272FFE6E0088E3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74E4272FFE6E0088E3EF /* Globall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88ED74E6272FFE6E0088E3EF /* Globall */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74FC272FFECA0088E3EF /* Services */,
+				88ED74FE272FFECA0088E3EF /* Application */,
+				88ED74F8272FFECA0088E3EF /* Constants */,
+				88ED74FA272FFECA0088E3EF /* Extensions */,
+				88ED74F6272FFECA0088E3EF /* Utilities */,
+				7F44DB9E27422A4200171570 /* Helper */,
+				88ED74EB272FFE6F0088E3EF /* Assets.xcassets */,
+				88ED74F0272FFE6F0088E3EF /* Info.plist */,
+				88ED74ED272FFE6F0088E3EF /* Preview Content */,
+				A410D511E89065841D933B0C /* Resources */,
+				18E9D8A576D27F8740436321 /* Views */,
+				E1687D8990AE8D802690AD46 /* CustomViews */,
+			);
+			path = Globall;
+			sourceTree = "<group>";
+		};
+		88ED74ED272FFE6F0088E3EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88ED74F6272FFECA0088E3EF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74F7272FFECA0088E3EF /* Utilities.swift */,
+				69BBDA5C17BF1580BF1ED56A /* Validation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		88ED74F8272FFECA0088E3EF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74F9272FFECA0088E3EF /* AppConstants.swift */,
+				DDD2E905751A8835E7600755 /* StringScheme.swift */,
+				6D2A83E963809C9CE779EB8F /* ColorConstants.swift */,
+				AC9DF442CC4AE6521B10743E /* FontScheme.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		88ED74FA272FFECA0088E3EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				888CB47427686A000041116C /* APIExtensions.swift */,
+				8853052527718DC500B04E6F /* ViewExtension.swift */,
+				8853052B2771949600B04E6F /* UINavigationController.swift */,
+				8853052927718E2D00B04E6F /* EncodableExtension.swift */,
+				884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88ED74FC272FFECA0088E3EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74FD272FFECA0088E3EF /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		88ED74FE272FFECA0088E3EF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */,
+				88ED74FF272FFECA0088E3EF /* GloballApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8A68FFD5DA94247A51D4DED2 /* ConnexionView */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8EA1387242063F52000C8 /* ConnexionView.swift */,
+				0903E2011D82555F648B363B /* ConnexionViewModel.swift */,
+			);
+			name = ConnexionView;
+			path = ConnexionView;
+			sourceTree = "<group>";
+		};
+		93784D28531B5F01FC2CD8B8 /* EventsView */ = {
+			isa = PBXGroup;
+			children = (
+				3B01BF65DE4B6C2522BBBA05 /* EventsView.swift */,
+				A3EA45EC782E3453A82BCF19 /* EventsViewModel.swift */,
+			);
+			name = EventsView;
+			path = EventsView;
+			sourceTree = "<group>";
+		};
+		967C392FEF57D4866140E970 /* FootballPlaygroundOneView */ = {
+			isa = PBXGroup;
+			children = (
+				56B6DACF12104421BE732D28 /* FootballPlaygroundOneView.swift */,
+				183F40A5B9E657B4B890F22E /* FootballPlaygroundOneViewModel.swift */,
+			);
+			name = FootballPlaygroundOneView;
+			path = FootballPlaygroundOneView;
+			sourceTree = "<group>";
+		};
+		9D8053E9A02FE168E03D34BE /* LandingPageTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				F5B120CCA3347BAEC42A361A /* LandingPageTwoView.swift */,
+				35866DEB2F4F41AC9DFA8834 /* LandingPageTwoViewModel.swift */,
+			);
+			name = LandingPageTwoView;
+			path = LandingPageTwoView;
+			sourceTree = "<group>";
+		};
+		A410D511E89065841D933B0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DC35DF50643FFB832148727 /* Fonts */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A668E00F3CE625D4C36F9700 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				7BF1061D1C5CC6E0F184DFD7 /* ProfileView.swift */,
+				F483B7BE31609C11FE138422 /* Cell */,
+				3E0A92C99C169063E066856A /* ProfileViewModel.swift */,
+			);
+			name = ProfileView;
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		A9D264A8B6E55286B4E1EEC3 /* MapsFootballTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				077D6FABA71E08E96E742E72 /* MapsFootballTwoView.swift */,
+				5AAA1E546F94A3A1D8D7B75B /* MapsFootballTwoViewModel.swift */,
+			);
+			name = MapsFootballTwoView;
+			path = MapsFootballTwoView;
+			sourceTree = "<group>";
+		};
+		B3F312C86918146D55D5440D /* FacebookAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				AA253A8DB2D88BC61594266C /* FBAuthentication.swift */,
+			);
+			name = FacebookAuthentication;
+			path = FacebookAuthentication;
+			sourceTree = "<group>";
+		};
+		B957B2D4A71850FBA40E0121 /* LandingPageOneView */ = {
+			isa = PBXGroup;
+			children = (
+				124254BE1E4E99C732C7962E /* LandingPageOneView.swift */,
+				BC4BD44A23403114F929A70A /* LandingPageOneViewModel.swift */,
+			);
+			name = LandingPageOneView;
+			path = LandingPageOneView;
+			sourceTree = "<group>";
+		};
+		BF6DE2D263AE1690F5AE72A5 /* MapsFootballThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				D864BB41A4FA586282069C65 /* MapsFootballThreeView.swift */,
+				158CEC40C851720541F28BAC /* MapsFootballThreeViewModel.swift */,
+			);
+			name = MapsFootballThreeView;
+			path = MapsFootballThreeView;
+			sourceTree = "<group>";
+		};
+		C52630ACB5EA6FF8A7A19EA6 /* MapsBasketballOneView */ = {
+			isa = PBXGroup;
+			children = (
+				9439CC1DBFB3D30800456AFB /* MapsBasketballOneView.swift */,
+				25E05E5706AB5ABDF943F10B /* MapsBasketballOneViewModel.swift */,
+			);
+			name = MapsBasketballOneView;
+			path = MapsBasketballOneView;
+			sourceTree = "<group>";
+		};
+		CDEB151D1D3F70B44DC4210D /* FootballPlaygroundThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				E4A964510F39BE15ACE5E019 /* FootballPlaygroundThreeView.swift */,
+				EEED77F5999C325A65505910 /* FootballPlaygroundThreeViewModel.swift */,
+			);
+			name = FootballPlaygroundThreeView;
+			path = FootballPlaygroundThreeView;
+			sourceTree = "<group>";
+		};
+		CEDC1B73AD2778D5D5AD869A /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E04D9E1262593463E0B54 /* HomePageView.swift */,
+				8D1EBAD4D1F050EE710412EB /* HomePageViewModel.swift */,
+			);
+			name = HomePageView;
+			path = HomePageView;
+			sourceTree = "<group>";
+		};
+		D0FB99CFFAC47A3D9849BA58 /* SignUpTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB8A9D898132C16886A661 /* SignUpTwoView.swift */,
+				4F923E575A3DF10E9F232D1D /* SignUpTwoViewModel.swift */,
+			);
+			name = SignUpTwoView;
+			path = SignUpTwoView;
+			sourceTree = "<group>";
+		};
+		DFB6D190F510F9E63AF93DAE /* GoogleAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				68425BC65FD96F36EBF86B63 /* GoogleAuthentication.swift */,
+			);
+			name = GoogleAuthentication;
+			path = GoogleAuthentication;
+			sourceTree = "<group>";
+		};
+		E1687D8990AE8D802690AD46 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E9495D6C531D7FC74F80A3C1 /* MapsBasketballView */ = {
+			isa = PBXGroup;
+			children = (
+				1674CE2FD2C5315CF568FB97 /* MapsBasketballView.swift */,
+				A2A7C23B0B81A36C3035DF6B /* MapsBasketballViewModel.swift */,
+			);
+			name = MapsBasketballView;
+			path = MapsBasketballView;
+			sourceTree = "<group>";
+		};
+		F1C20F98A0882E27AE5BB79A /* BasketballPlaygroundTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				C20DDAC7D028AC8B40734E16 /* BasketballPlaygroundTwoView.swift */,
+				B0E68B313D46DDFE4A10A374 /* BasketballPlaygroundTwoViewModel.swift */,
+			);
+			name = BasketballPlaygroundTwoView;
+			path = BasketballPlaygroundTwoView;
+			sourceTree = "<group>";
+		};
+		F483B7BE31609C11FE138422 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7483B78359CA213F38E7CB95 /* CardCell.swift */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F71A241359AB3A472E7BC906 /* MapsBasketballThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				79A9F65FD8B80205F8C5DF5B /* MapsBasketballThreeView.swift */,
+				28A5157C26178B2ABD644F69 /* MapsBasketballThreeViewModel.swift */,
+			);
+			name = MapsBasketballThreeView;
+			path = MapsBasketballThreeView;
+			sourceTree = "<group>";
+		};
+		FA4D4558BC82310951C51B8F /* EventCreatedView */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4085BC19F26EDC58ADCB0 /* EventCreatedView.swift */,
+				FBC61BAD2451F227AEAD9717 /* EventCreatedViewModel.swift */,
+			);
+			name = EventCreatedView;
+			path = EventCreatedView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88ED74E3272FFE6E0088E3EF /* Globall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "Globall" */;
+			buildPhases = (
+				88ED74E0272FFE6E0088E3EF /* Sources */,
+				88ED74E1272FFE6E0088E3EF /* Frameworks */,
+				88ED74E2272FFE6E0088E3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Globall;
+			productName = Globall;
+			productReference = 88ED74E4272FFE6E0088E3EF /* Globall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ED74DC272FFE6E0088E3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					88ED74E3272FFE6E0088E3EF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 88ED74DF272FFE6E0088E3EF /* Build configuration list for PBXProject "Globall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88ED74DB272FFE6E0088E3EF;
+			productRefGroup = 88ED74E5272FFE6E0088E3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88ED74E3272FFE6E0088E3EF /* Globall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88ED74E2272FFE6E0088E3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED74EF272FFE6F0088E3EF /* Preview Assets.xcassets in Resources */,
+				88ED74EC272FFE6F0088E3EF /* Assets.xcassets in Resources */,
+				78B2AE02A9B2995BAEA4258F /* PoppinsBold.ttf in Resources */,
+				E08E49D6BB332D69E2539457 /* MontagaRegular.ttf in Resources */,
+				4BB9FB8CFDCF5520D916AB57 /* LatoBold.ttf in Resources */,
+				830F905B322E172D95BCAD7A /* MontserratSemiBold.ttf in Resources */,
+				E8BCA25293F0A3377A079A33 /* RobotoRomanMedium.ttf in Resources */,
+				141B165598303EE2C991C66E /* PoppinsRegular.ttf in Resources */,
+				F9A4C6E3F1EF6419AD17B3EB /* InterRegular.ttf in Resources */,
+				E258D78196043B3C01238E7C /* InterBold.ttf in Resources */,
+				D5B8A56F452DC49DB950A7C8 /* MontserratRomanMedium.ttf in Resources */,
+				73F22C331A84080B629CA37B /* AntonioBold.ttf in Resources */,
+				6D9E45690BF6FC4A18EEEC13 /* MontserratRomanRegular.ttf in Resources */,
+				D83A4DABCF35B452CD77428B /* PoppinsSemiBold.ttf in Resources */,
+				9D380E1133B69B19DC64A7B4 /* PoppinsMedium.ttf in Resources */,
+				58A4FB05BCB41A95201BB76E /* RobotoRomanRegular.ttf in Resources */,
+				41847CBEBB977ED4A800AFA4 /* InterSemiBold.ttf in Resources */,
+				0D3457941BC3D0D1ADB10F4D /* PoppinsLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88ED74E0272FFE6E0088E3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888CB47527686A000041116C /* APIExtensions.swift in Sources */,
+				8853052A27718E2D00B04E6F /* EncodableExtension.swift in Sources */,
+				8853052C2771949600B04E6F /* UINavigationController.swift in Sources */,
+				88ED7503272FFECA0088E3EF /* APIManager.swift in Sources */,
+				7F44DBA127422A5D00171570 /* ActivityLoader.swift in Sources */,
+				8853052627718DC500B04E6F /* ViewExtension.swift in Sources */,
+				88ED7500272FFECA0088E3EF /* Utilities.swift in Sources */,
+				88ED7504272FFECA0088E3EF /* GloballApp.swift in Sources */,
+				C40AB9F82754D79E006BC5D7 /* AppDelegate.swift in Sources */,
+				88680D1C2775C601002E964F /* ViewportHelper.swift in Sources */,
+				88ED7501272FFECA0088E3EF /* AppConstants.swift in Sources */,
+				884F3E5127B0E65A00963FC4 /* RoundedCornersView.swift in Sources */,
+				62AB55DA135FEE2BD89D7B40 /* StringScheme.swift in Sources */,
+				92EB12FC02C3BCB9AB8CE734 /* ColorConstants.swift in Sources */,
+				F118D9D7BE5F97C8670005D7 /* FontScheme.swift in Sources */,
+				A04969997994BCB184BDF6A4 /* LandingPageOneView.swift in Sources */,
+				DE31F6A0603217F6BE3180C7 /* ManageyoureventView.swift in Sources */,
+				9E166A2D27CC27A2FE675DB7 /* ProfileView.swift in Sources */,
+				043D70138723947834D11EC0 /* CardCell.swift in Sources */,
+				D1B6AAB1E196AD3403A9EFED /* EventCreatedView.swift in Sources */,
+				D7DC50D19C13FD54E25C3DD3 /* LandingPageTwoView.swift in Sources */,
+				A2CA29209036B3ADCABADC8F /* ConnexionView.swift in Sources */,
+				73707A544902B8EABB0F6A9D /* HomePageView.swift in Sources */,
+				B734B365BEF5DCB3F6E18C09 /* EventsView.swift in Sources */,
+				5BB3C3D258F61F8393790270 /* SignUpOneView.swift in Sources */,
+				A4269D360A1B6A776CBE8D0B /* SignUpTwoView.swift in Sources */,
+				461157FDD15B972C9F4A8414 /* MapsBasketballView.swift in Sources */,
+				E6578303E22754A23D07EA21 /* MapsFootballView.swift in Sources */,
+				41D4603F44DF78F5B353665C /* MapsBasketballThreeView.swift in Sources */,
+				DB3810BF8F1EC022E38073A1 /* MapsBasketballTwoView.swift in Sources */,
+				E7F792DB6EDC777F1BA60804 /* MapsBasketballOneView.swift in Sources */,
+				76EB2A9173B3ECC71754E36B /* MapsFootballOneView.swift in Sources */,
+				27DC5CF08472E25AAC520606 /* MapsFootballTwoView.swift in Sources */,
+				77640A8D994D38C77238A7C6 /* MapsFootballThreeView.swift in Sources */,
+				A5D9EBBEC8E6903A2274C290 /* BasketballPlaygroundThreeView.swift in Sources */,
+				9BAABAAA57EA2FBB0E57109D /* BasketballPlaygroundTwoView.swift in Sources */,
+				5DEEE649F90DD5448851E05F /* BasketballPlaygroundOneView.swift in Sources */,
+				8617F3985E9795F8D3863F70 /* FootballPlaygroundOneView.swift in Sources */,
+				F9F46B8289536B7D541C051C /* FootballPlaygroundTwoView.swift in Sources */,
+				D9DF274BE188FFF54E9B9F3E /* FootballPlaygroundThreeView.swift in Sources */,
+				CEE17073401CB7FBCF68BA8A /* AppnavigationView.swift in Sources */,
+				0067CA3A7394048B4DDE3980 /* FBAuthentication.swift in Sources */,
+				D3B69AEF8274A7C9B5D8042B /* GoogleAuthentication.swift in Sources */,
+				01DFCFE3F7C880EA1B0CD922 /* Validation.swift in Sources */,
+				6F49C426F34095DD481C8E93 /* HomePageViewModel.swift in Sources */,
+				7DF726180D8034B8EC63F92B /* ProfileViewModel.swift in Sources */,
+				E0DCDA043CC23C5C7C61FEE8 /* FootballPlaygroundOneViewModel.swift in Sources */,
+				A8375CB5CFC78249C8EF4A14 /* MapsFootballViewModel.swift in Sources */,
+				7BD43DE7B2F9BA2E35237BBE /* ConnexionViewModel.swift in Sources */,
+				259AB68A5C046063035A0AB3 /* FootballPlaygroundTwoViewModel.swift in Sources */,
+				050984DF261C40F34E81C6FE /* FootballPlaygroundThreeViewModel.swift in Sources */,
+				059B124720E6D1DAFBBBEEDE /* MapsBasketballOneViewModel.swift in Sources */,
+				627D2DF71EAB4324A8D6D7F3 /* BasketballPlaygroundOneViewModel.swift in Sources */,
+				C053B9BB08CC955A784CAC39 /* MapsFootballTwoViewModel.swift in Sources */,
+				DEE533DC2732A710D5F72007 /* MapsFootballOneViewModel.swift in Sources */,
+				D3BCD515A2FC7526221AF42A /* AppnavigationViewModel.swift in Sources */,
+				CB52EB4243B56BF85C855A16 /* EventsViewModel.swift in Sources */,
+				F1C31BCB2E56E16D6BF176BE /* EventCreatedViewModel.swift in Sources */,
+				F8089ED6E41A0279F1B8651A /* ManageyoureventViewModel.swift in Sources */,
+				06C0E46307FCB8F7A36004CC /* SignUpTwoViewModel.swift in Sources */,
+				66AABA5D5121FA98D56F4EAD /* MapsBasketballViewModel.swift in Sources */,
+				A326A6174A4EBC9E95358CFF /* SignUpOneViewModel.swift in Sources */,
+				A5C94D1692E32DEF7F922379 /* MapsBasketballTwoViewModel.swift in Sources */,
+				56F72BE1F8ED6727305F3F09 /* MapsFootballThreeViewModel.swift in Sources */,
+				A5C7C13C4954B23E348AF809 /* BasketballPlaygroundThreeViewModel.swift in Sources */,
+				F7AAA6DE1E2E062996062DF3 /* LandingPageTwoViewModel.swift in Sources */,
+				2522B1A59FF6969920A71F64 /* MapsBasketballThreeViewModel.swift in Sources */,
+				F36B0CBF9DA0B3BAE18B644F /* LandingPageOneViewModel.swift in Sources */,
+				1D9E849CB307F3ED5C223A7F /* BasketballPlaygroundTwoViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88ED74F1272FFE6F0088E3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88ED74F2272FFE6F0088E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88ED74F4272FFE6F0088E3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Globall/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Globall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globall.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88ED74F5272FFE6F0088E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Globall/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Globall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globall.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88ED74DF272FFE6E0088E3EF /* Build configuration list for PBXProject "Globall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED74F1272FFE6F0088E3EF /* Debug */,
+				88ED74F2272FFE6F0088E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "Globall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED74F4272FFE6F0088E3EF /* Debug */,
+				88ED74F5272FFE6F0088E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ED74DC272FFE6E0088E3EF /* Project object */;
+}
